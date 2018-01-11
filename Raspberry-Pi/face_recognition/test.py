@@ -51,6 +51,8 @@ while True:
     test_img1 = cv2.imread("image11.jpg")
     test_img1 = cv2.resize(test_img1, (0,0), fx=0.5, fy=0.5)
     predicted_img1 = predict(test_img1)
-    predicted_img1, label1 = predict(test_img1) 
-    print("1: {}".format(label1))
-    sleep(1)
+    if (label1!="no face" and label1!="not in the training set!!"):
+        print("1: {}".format(label1))
+        os.system('bash run.sh '+label1)
+    else:
+        sleep(1)
