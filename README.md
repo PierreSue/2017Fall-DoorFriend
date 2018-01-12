@@ -9,8 +9,8 @@ It's a friend that recognizes you and your other friends!
 Imagine that you are busy cooking a great dinner for your party, and your friend is arriving at your house. Your friend pushes the bell, but you can't open the door with the dirty hands! Now the Door Friend comes to save your day. It can recognize you and your friends' faces and voices and open the door accordingly.
 
 ## Project structure
-![The structure graph](https://i.imgur.com/fTyPmXD.png)
-We use a Raspberry Pi to perform individual speaker / face recognition. An Arduino is used to control the behavior of the door and the OLED display used to greet the user outside. Also we use an LED strip to aid the face recognition in the night.
+![The structure graph](https://i.imgur.com/wF9vpaj.png)
+We use a Raspberry Pi to perform individual speaker / face recognition. Another Raspberry Pi is used as an in-house home assistant. An Arduino is used to control the behavior of the door and the OLED display used to greet the user outside. Also we use an LED strip to aid the face recognition in the night.
 
 ## Wiring
 
