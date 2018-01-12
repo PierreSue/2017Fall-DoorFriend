@@ -47,7 +47,7 @@ Pull these pins up to 3.3V with a resistor.
 You should first have `U8glib`, `Ultrasonic`, `Adafruit_Fingerprint` installed. Then compile `arduino_door_lock.ino` and upload it to your Arduino.
 
 ### Raspberry Pi part
-OpenCV should be installed first. You can refer to the link under `Refereneces` section.
+OpenCV should be installed first. You can refer to the link under `Refereneces` section. Also we have a writeup here: <https://github.com/NTUEE-ESLab/2017Fall-DoorFriend/blob/master/OpenCV_INSTALL.md>  
 The speaker regocnition part requires `pyssp`, `scikits.talkbox`, `scikit-learn`, `numpy`, `scipy`, `PyAudio`.
 
 ## Future improvements
