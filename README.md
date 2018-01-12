@@ -18,7 +18,7 @@ The two RPi's communicate through a TCP socket. The voice assistant acts as a se
 The RPi outside communicates with Arduino by simple pulled up GPIOs. The lines are pulled up to 3.3V, and the RPi pulls it down to 0V to notify Arduino of events.
 
 ## Face recognition
-We use OpenCV to implement face detection and face recognition. For face detection, we use "haarcascade_frontalface_alt.xml". For face recognition, we use LBPH recognizer. Before the face recognition, we pre-train the recognizer and save it as "recognizer.xml" for future use. The program then takes a photo every second. If the face hasn't been found in the image or hasn't been recognized, the program will continue to take photos. Once the face is recognized, it will execute speeker recognition program and send the name of the face to it.
+We use OpenCV to implement face detection and face recognition. For face detection, we use "haarcascade_frontalface_alt.xml". For face recognition, we use LBPH recognizer. Before the face recognition, we pre-train the recognizer and save it as "recognizer.xml" for future use. So when recognizing the faces, the program doesn't have to train the faces again. The program then takes a photo every second and process it. If the face hasn't been found in the image or hasn't been recognized, the program will continue to take photos. Once the face is recognized, it will execute speeker recognition program and send the name of the face to it.
 
 ## Wiring
 ### Communication between RPi <-> Arduino
