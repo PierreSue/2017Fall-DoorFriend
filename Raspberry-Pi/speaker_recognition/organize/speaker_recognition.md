@@ -2,9 +2,9 @@
 It is the speaker-reconition part by training the GMM model
 
 ## Introduction
-  The main purpose of this part is to recognize who the speaker is. Firstly, training process will take repositories name after speakers, and process the .wavs one by one as well as detect the voice activity(VAD) and extract the feature. Furthermore, train the GMM model by the MFCC features. <br>
-  One step forward, if you wanna add one speaker to the model, expand command will be your first priority for you don't need to train the existing speakers again. <br>
-  At last, as somebody arrive by the door, the process will automatically call the prediction function and pass the name as a parameter. The command will check the name whether it matches to the sound.
+    The main purpose of this part is to recognize who the speaker is. Firstly, training process will take repositories name after speakers, and process the .wavs one by one as well as detect the voice activity(VAD) and extract the feature. Furthermore, train the GMM model by the MFCC features. <br>
+    One step forward, if you wanna add one speaker to the model, expand command will be your first priority for you don't need to train the existing speakers again. <br>
+    At last, as somebody arrive by the door, the process will automatically call the prediction function and pass the name as a parameter. The command will check the name whether it matches to the sound.
 
 ## Software Dependencies
 - scikit-learn 
