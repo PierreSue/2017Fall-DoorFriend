@@ -24,6 +24,7 @@ OpenCV should be installed first. You can refer to the link under `Refereneces` 
 
 ## Future improvements
 - Have an additional RPi inside to notify user of arriving friends
+- Find the solution to prevent from overfitting on speaker recognition
 - Make the enrollment process smoother
 - The owner can lock the door manually
 
