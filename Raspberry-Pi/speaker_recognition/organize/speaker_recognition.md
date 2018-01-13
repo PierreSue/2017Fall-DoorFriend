@@ -19,7 +19,6 @@ It is the speaker-reconition part by training the GMM model
     <br>
 - scipy
     - `sudo apt install python-scipy` <br>
-    <br>
 
 ## Usage
 - Train (enroll a list of person named person*, and mary, with wav files under corresponding directories): <br>
