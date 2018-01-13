@@ -20,6 +20,7 @@ You should first have `U8glib` installed. Then compile `arduino_door_lock.ino` a
 
 ### Raspberry Pi part
 OpenCV should be installed first. You can refer to the link under `Refereneces` section.
+`scikit-learn` `scikits.talkbox` `pyssp` `PyAudio` `numpy` `scipy` should be installed for speaker recognition
 
 ## Future improvements
 - Have an additional RPi inside to notify user of arriving friends
@@ -32,3 +33,4 @@ OpenCV should be installed first. You can refer to the link under `Refereneces` 
 - OpenCV face recognition: <https://www.superdatascience.com/opencv-face-recognition/>
 - U8glib display driver: <https://github.com/olikraus/u8glib>
 - ULN2803 datasheet: <http://www.ti.com/lit/ds/symlink/uln2803a.pdf>
+- Speaker Recognition: <https://github.com/ppwwyyxx/speaker-recognition>
