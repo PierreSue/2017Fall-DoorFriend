@@ -19,8 +19,8 @@ We use a Raspberry Pi to perform individual speaker / face recognition. An Ardui
 You should first have `U8glib` installed. Then compile `arduino_door_lock.ino` and upload it to your Arduino.
 
 ### Raspberry Pi part
-OpenCV should be installed first. You can refer to the link under `Refereneces` section.
-`scikit-learn` `scikits.talkbox` `pyssp` `PyAudio` `numpy` `scipy` should be installed for speaker recognition
+OpenCV should be installed first. You can refer to the link under `Refereneces` section. 
+`scikit-learn` `scikits.talkbox` `pyssp` `PyAudio` `numpy` `scipy` should be installed for speaker recognition.
 
 ## Future improvements
 - Have an additional RPi inside to notify user of arriving friends
