@@ -19,6 +19,10 @@ The RPi outside communicates with Arduino by simple pulled up GPIOs. The lines a
 
 ## Face recognition
 We use OpenCV to implement face detection and face recognition. In order to use OpenCV for face recognition, we install "opencv_contrib". For face detection, we use "haarcascade_frontalface_alt.xml". For face recognition, we use LBPH recognizer. Before the face recognition, we pre-train the recognizer and save it as "recognizer.xml" for future use. So when recognizing the faces, the program doesn't have to train the faces again. The program then takes a photo every second and process it. If the face hasn't been found in the image or hasn't been recognized, the program will continue to take photos. Once the face is recognized, it will execute speeker recognition program and send the name of the face to it.
+-haarcascade: 
+Use edged features, line features, and four-rectangle features to describe and detect the features on the face. Furthermore, use cascade of classifiers to determine a region is a face or not. The reason for cascading classifier is for efficiency. Because once the face doesn't pass one of the classifiers, this region will be determined as "no face".
+-LBPH recognizer:
+LBPH mean "local binary pattern histogram". It is a type of texture spectrum model. We use it because it is very efficiency and common.
 
 ## Wiring
 ### Communication between RPi <-> Arduino
